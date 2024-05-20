@@ -13,8 +13,8 @@ set(APP_NAME RxDoctor)
 # Executable
 add_executable(${APP_NAME} WIN32
         src/main.cpp
+        manifest/manifest.rc
         resources/${APP_NAME}/main.h
-        resources/manifest/manifest.rc
         resources/${APP_NAME}/resource.rc)
 
 # Static linking

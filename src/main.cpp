@@ -38,7 +38,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR lpCmdLine,
 
     // Set JVM initialization arguments
     JavaVMInitArgs vm_args;
-    vm_args.version = JNI_VERSION_21;
+    vm_args.version = JNI_VERSION;
     vm_args.nOptions = 2;
     vm_args.options = options;
     vm_args.ignoreUnrecognized = JNI_FALSE;

@@ -108,7 +108,7 @@
 			"language" : "RC",
 			"sourceIndexes" : 
 			[
-				2,
+				1,
 				3
 			]
 		}
@@ -147,7 +147,7 @@
 			"sourceIndexes" : 
 			[
 				0,
-				2,
+				1,
 				3
 			]
 		},
@@ -155,7 +155,7 @@
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				1
+				2
 			]
 		}
 	],
@@ -169,14 +169,14 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "resources/RxDoctor/main.h",
-			"sourceGroupIndex" : 1
+			"compileGroupIndex" : 1,
+			"path" : "manifest/manifest.rc",
+			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 1,
-			"path" : "resources/manifest/manifest.rc",
-			"sourceGroupIndex" : 0
+			"path" : "resources/RxDoctor/main.h",
+			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,

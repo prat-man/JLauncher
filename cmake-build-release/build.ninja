@@ -58,11 +58,11 @@ build CMakeFiles/RxDoctor.dir/src/main.cpp.obj: CXX_COMPILER__RxDoctor_unscanned
   TARGET_COMPILE_PDB = CMakeFiles\RxDoctor.dir\
   TARGET_PDB = RxDoctor.pdb
 
-build CMakeFiles/RxDoctor.dir/resources/manifest/manifest.rc.obj: RC_COMPILER__RxDoctor_unscanned_Release C$:/Users/prata/Files/Git/JLauncher/resources/manifest/manifest.rc || cmake_object_order_depends_target_RxDoctor
-  DEP_FILE = CMakeFiles\RxDoctor.dir\resources\manifest\manifest.rc.obj.d
+build CMakeFiles/RxDoctor.dir/manifest/manifest.rc.obj: RC_COMPILER__RxDoctor_unscanned_Release C$:/Users/prata/Files/Git/JLauncher/manifest/manifest.rc || cmake_object_order_depends_target_RxDoctor
+  DEP_FILE = CMakeFiles\RxDoctor.dir\manifest\manifest.rc.obj.d
   INCLUDES = -I C:/Users/prata/Files/Git/JLauncher/resources/RxDoctor -I "C:/Program Files/Eclipse Adoptium/jdk-21.0.2.13-hotspot/include" -I "C:/Program Files/Eclipse Adoptium/jdk-21.0.2.13-hotspot/include/win32"
   OBJECT_DIR = CMakeFiles\RxDoctor.dir
-  OBJECT_FILE_DIR = CMakeFiles\RxDoctor.dir\resources\manifest
+  OBJECT_FILE_DIR = CMakeFiles\RxDoctor.dir\manifest
   TARGET_COMPILE_PDB = CMakeFiles\RxDoctor.dir\
   TARGET_PDB = RxDoctor.pdb
 
@@ -82,7 +82,7 @@ build CMakeFiles/RxDoctor.dir/resources/RxDoctor/resource.rc.obj: RC_COMPILER__R
 #############################################
 # Link the executable RxDoctor.exe
 
-build RxDoctor.exe: CXX_EXECUTABLE_LINKER__RxDoctor_Release CMakeFiles/RxDoctor.dir/src/main.cpp.obj CMakeFiles/RxDoctor.dir/resources/manifest/manifest.rc.obj CMakeFiles/RxDoctor.dir/resources/RxDoctor/resource.rc.obj
+build RxDoctor.exe: CXX_EXECUTABLE_LINKER__RxDoctor_Release CMakeFiles/RxDoctor.dir/src/main.cpp.obj CMakeFiles/RxDoctor.dir/manifest/manifest.rc.obj CMakeFiles/RxDoctor.dir/resources/RxDoctor/resource.rc.obj
   FLAGS = -O3 -DNDEBUG
   LINK_FLAGS = -static  -mwindows
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
