@@ -1,15 +1,24 @@
+#include <wx/wx.h>
 #include <main.h>
-#include <iostream>
+#include <app.h>
 #include <jni.h>
-#include <Windows.h>
+
+class JLauncher : public wxApp {
+public:
+    int OnRun() override;
+};
+
+wxIMPLEMENT_APP(JLauncher);
 
 void ShowError(const std::string& message) {
-    MessageBox(nullptr, TEXT(message.c_str()), TEXT(APP_NAME), MB_OK | MB_ICONERROR);
+    auto* dial = new wxMessageDialog(nullptr, message.c_str(), APP_NAME, wxOK | wxICON_ERROR);
+    dial->ShowModal();
 }
 
-int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR lpCmdLine, int nCmdShow) {
+int JLauncher::OnRun() {
     // Define parameters
     std::string jre = JRE;
+    std::string jvmLib = jre + JVMLIB;
     std::string jar = JAR;
     std::string mainClass = MAIN_CLASS;
 
@@ -17,17 +26,16 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR lpCmdLine,
     JavaVM* jvm;
     JNIEnv* env;
 
-    // Load jvm.dll
-    std::string jvmDll = jre + "/bin/server/jvm.dll";
-    HMODULE hJVMDLL = LoadLibrary(jvmDll.c_str());
-    if (!hJVMDLL) {
-        ShowError("Failed to load jvm.dll from: " + jvmDll);
+    // Load JVM library
+    LIBTYPE hJVMLIB = OPENLIB(jvmLib.c_str());
+    if (!hJVMLIB) {
+        ShowError("Failed to load library: " + jvmLib);
         return -1;
     }
 
     // Redefine JNI_CreateJavaVM to use loaded jvm.dll
     typedef jint(JNICALL* fpCJV)(JavaVM**, void**, void*);
-    auto JNI_CreateJavaVM = reinterpret_cast<fpCJV>(GetProcAddress(hJVMDLL, "JNI_CreateJavaVM"));
+    auto JNI_CreateJavaVM = reinterpret_cast<fpCJV>(GetProcAddress(hJVMLIB, "JNI_CreateJavaVM"));
 
     // Set JVM options
     JavaVMOption options[2];

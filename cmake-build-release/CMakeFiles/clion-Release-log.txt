@@ -11,6 +11,7 @@
 -- Check for working CXX compiler: C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/g++.exe - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Configuring done (2.1s)
+-- Found wxWidgets: C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxmsw32u_core.a;C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxbase32u.a;C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxpng.a;C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxtiff.a;C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxjpeg.a;C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxzlib.a;C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxregexu.a;C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxexpat.a;winmm;comctl32;uuid;oleacc;uxtheme;rpcrt4;shlwapi;version;wsock32 (found version "3.2.5") found components: core base png tiff jpeg zlib regex expat 
+-- Configuring done (1.6s)
 -- Generating done (0.0s)
 -- Build files have been written to: C:/Users/prata/Files/Git/JLauncher/cmake-build-release

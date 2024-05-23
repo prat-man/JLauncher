@@ -1,7 +1,5 @@
-#ifndef MAIN_H
-
-// Define MAIN_H
-#define MAIN_H
+#ifndef APP_H
+#define APP_H
 
 // Define parameters
 #define APP_NAME "FileGuard"
@@ -10,4 +8,4 @@
 #define MAIN_CLASS "in/pratanumandal/fileguard/AppMain"
 #define JNI_VERSION JNI_VERSION_10
 
-#endif //MAIN_H
+#endif //APP_H

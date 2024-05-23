@@ -1270,6 +1270,18 @@
 			"value" : "FALSE"
 		},
 		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_wxWidgets",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding wxWidgets"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxmsw32u_core.a;C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxbase32u.a;C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxpng.a;C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxtiff.a;C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxjpeg.a;C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxzlib.a;C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxregexu.a;C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxexpat.a;winmm;comctl32;uuid;oleacc;uxtheme;rpcrt4;shlwapi;version;wsock32][C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/mswu;C:/Users/prata/Files/wxWidgets-3.2.5/include][cfound components: core base png tiff jpeg zlib regex expat ][v3.2.5()]"
+		},
+		{
 			"name" : "JLauncher_BINARY_DIR",
 			"properties" : 
 			[
@@ -1306,6 +1318,862 @@
 			"value" : "C:/Users/prata/Files/Git/JLauncher"
 		},
 		{
+			"name" : "WX_LIB_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "wxWidgets_LIB_DIR"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib"
+		},
+		{
+			"name" : "WX_ROOT_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "wxWidgets_ROOT_DIR"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "C:/Users/prata/Files/wxWidgets-3.2.5"
+		},
+		{
+			"name" : "WX_adv",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxmsw32u_adv.a"
+		},
+		{
+			"name" : "WX_advd",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "WX_advd-NOTFOUND"
+		},
+		{
+			"name" : "WX_aui",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxmsw32u_aui.a"
+		},
+		{
+			"name" : "WX_auid",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "WX_auid-NOTFOUND"
+		},
+		{
+			"name" : "WX_base",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxbase32u.a"
+		},
+		{
+			"name" : "WX_based",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "WX_based-NOTFOUND"
+		},
+		{
+			"name" : "WX_core",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxmsw32u_core.a"
+		},
+		{
+			"name" : "WX_cored",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "WX_cored-NOTFOUND"
+		},
+		{
+			"name" : "WX_dbgrid",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "WX_dbgrid-NOTFOUND"
+		},
+		{
+			"name" : "WX_dbgridd",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "WX_dbgridd-NOTFOUND"
+		},
+		{
+			"name" : "WX_expat",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxexpat.a"
+		},
+		{
+			"name" : "WX_expatd",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "WX_expatd-NOTFOUND"
+		},
+		{
+			"name" : "WX_gl",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxmsw32u_gl.a"
+		},
+		{
+			"name" : "WX_gld",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "WX_gld-NOTFOUND"
+		},
+		{
+			"name" : "WX_html",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxmsw32u_html.a"
+		},
+		{
+			"name" : "WX_htmld",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "WX_htmld-NOTFOUND"
+		},
+		{
+			"name" : "WX_jpeg",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxjpeg.a"
+		},
+		{
+			"name" : "WX_jpegd",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "WX_jpegd-NOTFOUND"
+		},
+		{
+			"name" : "WX_media",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxmsw32u_media.a"
+		},
+		{
+			"name" : "WX_mediad",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "WX_mediad-NOTFOUND"
+		},
+		{
+			"name" : "WX_mono",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "WX_mono-NOTFOUND"
+		},
+		{
+			"name" : "WX_monod",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "WX_monod-NOTFOUND"
+		},
+		{
+			"name" : "WX_net",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxbase32u_net.a"
+		},
+		{
+			"name" : "WX_netd",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "WX_netd-NOTFOUND"
+		},
+		{
+			"name" : "WX_odbc",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "WX_odbc-NOTFOUND"
+		},
+		{
+			"name" : "WX_odbcd",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "WX_odbcd-NOTFOUND"
+		},
+		{
+			"name" : "WX_png",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxpng.a"
+		},
+		{
+			"name" : "WX_pngd",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "WX_pngd-NOTFOUND"
+		},
+		{
+			"name" : "WX_propgrid",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxmsw32u_propgrid.a"
+		},
+		{
+			"name" : "WX_propgridd",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "WX_propgridd-NOTFOUND"
+		},
+		{
+			"name" : "WX_qa",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "WX_qa-NOTFOUND"
+		},
+		{
+			"name" : "WX_qad",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "WX_qad-NOTFOUND"
+		},
+		{
+			"name" : "WX_regex",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxregexu.a"
+		},
+		{
+			"name" : "WX_regexd",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "WX_regexd-NOTFOUND"
+		},
+		{
+			"name" : "WX_ribbon",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxmsw32u_ribbon.a"
+		},
+		{
+			"name" : "WX_ribbond",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "WX_ribbond-NOTFOUND"
+		},
+		{
+			"name" : "WX_richtext",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxmsw32u_richtext.a"
+		},
+		{
+			"name" : "WX_richtextd",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "WX_richtextd-NOTFOUND"
+		},
+		{
+			"name" : "WX_scintilla",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxscintilla.a"
+		},
+		{
+			"name" : "WX_scintillad",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "WX_scintillad-NOTFOUND"
+		},
+		{
+			"name" : "WX_stc",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxmsw32u_stc.a"
+		},
+		{
+			"name" : "WX_stcd",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "WX_stcd-NOTFOUND"
+		},
+		{
+			"name" : "WX_tiff",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxtiff.a"
+		},
+		{
+			"name" : "WX_tiffd",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "WX_tiffd-NOTFOUND"
+		},
+		{
+			"name" : "WX_webview",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxmsw32u_webview.a"
+		},
+		{
+			"name" : "WX_webviewd",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "WX_webviewd-NOTFOUND"
+		},
+		{
+			"name" : "WX_xml",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxbase32u_xml.a"
+		},
+		{
+			"name" : "WX_xmld",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "WX_xmld-NOTFOUND"
+		},
+		{
+			"name" : "WX_xrc",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxmsw32u_xrc.a"
+		},
+		{
+			"name" : "WX_xrcd",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "WX_xrcd-NOTFOUND"
+		},
+		{
+			"name" : "WX_zlib",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxzlib.a"
+		},
+		{
+			"name" : "WX_zlibd",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "WX_zlibd-NOTFOUND"
+		},
+		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
 			"properties" : 
 			[
@@ -1316,6 +2184,54 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "TRUE"
+		},
+		{
+			"name" : "wxWidgets_CONFIGURATION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Set wxWidgets configuration (mswu)"
+				}
+			],
+			"type" : "STRING",
+			"value" : "mswu"
+		},
+		{
+			"name" : "wxWidgets_LIB_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Cleared."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib"
+		},
+		{
+			"name" : "wxWidgets_ROOT_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "wxWidgets base/installation directory"
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/Users/prata/Files/wxWidgets-3.2.5"
+		},
+		{
+			"name" : "wxWidgets_wxrc_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Location of wxWidgets resource file compiler binary (wxrc)"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "wxWidgets_wxrc_EXECUTABLE-NOTFOUND"
 		}
 	],
 	"kind" : "cache",
