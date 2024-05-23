@@ -6,14 +6,12 @@
 class JLauncher : public wxApp {
 public:
     int OnRun() override;
+
+private:
+    static void ShowError(const std::string&);
 };
 
 wxIMPLEMENT_APP(JLauncher);
-
-void ShowError(const std::string& message) {
-    auto* dial = new wxMessageDialog(nullptr, message.c_str(), APP_NAME, wxOK | wxICON_ERROR);
-    dial->ShowModal();
-}
 
 int JLauncher::OnRun() {
     // Define parameters
@@ -84,4 +82,9 @@ int JLauncher::OnRun() {
     jvm->DestroyJavaVM();
 
     return 0;
+}
+
+void JLauncher::ShowError(const std::string& message) {
+    auto* dial = new wxMessageDialog(nullptr, message.c_str(), APP_NAME, wxOK | wxICON_ERROR);
+    dial->ShowModal();
 }

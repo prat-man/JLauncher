@@ -1,17 +1,4 @@
 "C:\Program Files\JetBrains\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.1.1/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\prata\Files\Git\JLauncher -B C:\Users\prata\Files\Git\JLauncher\cmake-build-release
--- The C compiler identification is GNU 13.1.0
--- The CXX compiler identification is GNU 13.1.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/gcc.exe - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/g++.exe - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Found wxWidgets: C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxmsw32u_core.a;C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxbase32u.a;C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxpng.a;C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxtiff.a;C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxjpeg.a;C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxzlib.a;C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxregexu.a;C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/libwxexpat.a;winmm;comctl32;uuid;oleacc;uxtheme;rpcrt4;shlwapi;version;wsock32 (found version "3.2.5") found components: core base png tiff jpeg zlib regex expat 
--- Configuring done (1.6s)
+-- Configuring done (0.2s)
 -- Generating done (0.0s)
 -- Build files have been written to: C:/Users/prata/Files/Git/JLauncher/cmake-build-release
