@@ -1,0 +1,4 @@
+#include <windows.h> // include for version info constants
+
+// MANIFEST
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "wx/msw/wx_dpi_aware_pmv2.manifest"

@@ -14,16 +14,16 @@ set(APP_NAME RxDoctor)
 IF (WIN32)
     add_executable(${APP_NAME} WIN32
             src/main.cpp
-            include/main.h
-            manifest/manifest.rc
-            resources/${APP_NAME}/app.h
+            include/manifest.rc
             resources/${APP_NAME}/resource.rc)
-ELSE()
-    add_executable(${APP_NAME}
-            src/main.cpp
-            include/main.h
-            resources/${APP_NAME}/app.h
-            resources/${APP_NAME}/resource.rc)
+
+ELSEIF (APPLE)
+    add_executable(${APP_NAME} src/main.cpp)
+    # TODO: Change to create BUNDLE along with info.plist
+
+ELSEIF (UNIX AND NOT APPLE)
+    add_executable(${APP_NAME} src/main.cpp)
+
 ENDIF()
 
 # Static linking
@@ -34,14 +34,13 @@ set_target_properties(${APP_NAME} PROPERTIES LINK_FLAGS_RELEASE -s)
 
 # Include headers
 include_directories(include)
-
-# Include resources
 include_directories(resources/${APP_NAME})
 
 # Include JNI headers
 include_directories($ENV{JAVA_HOME}/include)
 include_directories($ENV{JAVA_HOME}/include/win32)
 include_directories($ENV{JAVA_HOME}/include/linux)
+include_directories($ENV{JAVA_HOME}/include/darwin)
 
 # Include wxWidgets
 set(wxWidgets_ROOT_DIR $ENV{WX_WIDGETS_ROOT})

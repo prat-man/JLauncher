@@ -44,13 +44,13 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 51,
+				"line" : 50,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 50,
+				"line" : 49,
 				"parent" : 0
 			},
 			{
@@ -72,7 +72,19 @@
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 39,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 41,
 				"parent" : 0
 			},
 			{
@@ -85,12 +97,6 @@
 				"command" : 4,
 				"file" : 0,
 				"line" : 43,
-				"parent" : 0
-			},
-			{
-				"command" : 4,
-				"file" : 0,
-				"line" : 44,
 				"parent" : 0
 			},
 			{
@@ -145,11 +151,15 @@
 				},
 				{
 					"backtrace" : 12,
+					"path" : "C:/Program Files/Eclipse Adoptium/jdk-21.0.2.13-hotspot/include/darwin"
+				},
+				{
+					"backtrace" : 13,
 					"isSystem" : true,
 					"path" : "C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/mswu"
 				},
 				{
-					"backtrace" : 12,
+					"backtrace" : 13,
 					"isSystem" : true,
 					"path" : "C:/Users/prata/Files/wxWidgets-3.2.5/include"
 				}
@@ -204,11 +214,15 @@
 				},
 				{
 					"backtrace" : 12,
+					"path" : "C:/Program Files/Eclipse Adoptium/jdk-21.0.2.13-hotspot/include/darwin"
+				},
+				{
+					"backtrace" : 13,
 					"isSystem" : true,
 					"path" : "C:/Users/prata/Files/wxWidgets-3.2.5/lib/gcc_lib/mswu"
 				},
 				{
-					"backtrace" : 12,
+					"backtrace" : 13,
 					"isSystem" : true,
 					"path" : "C:/Users/prata/Files/wxWidgets-3.2.5/include"
 				}
@@ -216,8 +230,8 @@
 			"language" : "RC",
 			"sourceIndexes" : 
 			[
-				2,
-				4
+				1,
+				2
 			]
 		}
 	],
@@ -345,16 +359,8 @@
 			"sourceIndexes" : 
 			[
 				0,
-				2,
-				4
-			]
-		},
-		{
-			"name" : "Header Files",
-			"sourceIndexes" : 
-			[
 				1,
-				3
+				2
 			]
 		}
 	],
@@ -368,19 +374,9 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "include/main.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
 			"compileGroupIndex" : 1,
-			"path" : "manifest/manifest.rc",
+			"path" : "include/manifest.rc",
 			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "resources/RxDoctor/app.h",
-			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
