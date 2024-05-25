@@ -1,0 +1,3 @@
+C:/Users/prata/Files/Git/JLauncher/cmake-build-release-visual-studio/CMakeFiles/RxDoctor.dir
+C:/Users/prata/Files/Git/JLauncher/cmake-build-release-visual-studio/CMakeFiles/edit_cache.dir
+C:/Users/prata/Files/Git/JLauncher/cmake-build-release-visual-studio/CMakeFiles/rebuild_cache.dir

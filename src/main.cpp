@@ -33,7 +33,7 @@ int JLauncher::OnRun() {
 
     // Redefine JNI_CreateJavaVM to use loaded jvm.dll
     typedef jint(JNICALL* fpCJV)(JavaVM**, void**, void*);
-    auto JNI_CreateJavaVM = reinterpret_cast<fpCJV>(GetProcAddress(hJVMLIB, "JNI_CreateJavaVM"));
+    auto JNI_CreateJavaVM = reinterpret_cast<fpCJV>(LIBFUNC(hJVMLIB, "JNI_CreateJavaVM"));
 
     // Set JVM options
     JavaVMOption options[2];

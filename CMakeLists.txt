@@ -27,10 +27,10 @@ ELSEIF (UNIX AND NOT APPLE)
 ENDIF()
 
 # Static linking
-target_link_libraries(${APP_NAME} -static)
+#target_link_libraries(${APP_NAME} -static)
 
 # Strip executable
-set_target_properties(${APP_NAME} PROPERTIES LINK_FLAGS_RELEASE -s)
+set_target_properties(${APP_NAME} PROPERTIES LINK_FLAGS_RELEASE "-s -manifest:no")
 
 # Include headers
 include_directories(include)

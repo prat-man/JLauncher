@@ -1,0 +1,12 @@
+# ninja log v5
+22	605	7383407047264491	RxDoctor.exe	45f517717a96bb47
+19	145	7383406057326125	CMakeFiles/RxDoctor.dir/resources/RxDoctor/resource.rc.res	6d6c3d180c37ceb7
+10	143	7383406057326125	CMakeFiles/RxDoctor.dir/include/manifest.rc.res	ce5bba8b05bfd2d3
+5	2074	7383406076575449	CMakeFiles/RxDoctor.dir/src/main.cpp.obj	9a5d4c0b4eed5065
+2	124	7383407111774459	build.ninja	11e2821f0076feca
+21	100	7383407132624902	CMakeFiles/RxDoctor.dir/resources/RxDoctor/resource.rc.res	6d6c3d180c37ceb7
+17	106	7383407132689892	CMakeFiles/RxDoctor.dir/include/manifest.rc.res	ce5bba8b05bfd2d3
+13	1747	7383407149045596	CMakeFiles/RxDoctor.dir/src/main.cpp.obj	9a5d4c0b4eed5065
+1752	2324	7383407154456575	RxDoctor.exe	45f517717a96bb47
+7	1715	7383408946186800	CMakeFiles/RxDoctor.dir/src/main.cpp.obj	9a5d4c0b4eed5065
+1716	2314	7383408951850970	RxDoctor.exe	45f517717a96bb47
