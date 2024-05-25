@@ -16,21 +16,21 @@ IF (WIN32)
             src/main.cpp
             include/manifest.rc
             resources/${APP_NAME}/resource.rc)
+    set_target_properties(${APP_NAME} PROPERTIES LINK_FLAGS_RELEASE /MANIFEST:NO)
 
 ELSEIF (APPLE)
     add_executable(${APP_NAME} src/main.cpp)
+    set_target_properties(${APP_NAME} PROPERTIES LINK_FLAGS_RELEASE -s)
     # TODO: Change to create BUNDLE along with info.plist
 
 ELSEIF (UNIX AND NOT APPLE)
     add_executable(${APP_NAME} src/main.cpp)
+    set_target_properties(${APP_NAME} PROPERTIES LINK_FLAGS_RELEASE -s)
 
 ENDIF()
 
 # Static linking
 #target_link_libraries(${APP_NAME} -static)
-
-# Strip executable
-set_target_properties(${APP_NAME} PROPERTIES LINK_FLAGS_RELEASE "-s -manifest:no")
 
 # Include headers
 include_directories(include)
@@ -44,7 +44,7 @@ include_directories($ENV{JAVA_HOME}/include/darwin)
 
 # Include wxWidgets
 set(wxWidgets_ROOT_DIR $ENV{WX_WIDGETS_ROOT})
-find_package(wxWidgets REQUIRED COMPONENTS core base)
+find_package(wxWidgets REQUIRED core base)
 if(wxWidgets_FOUND)
     include(${wxWidgets_USE_FILE})
     target_link_libraries(${APP_NAME} ${wxWidgets_LIBRARIES})
