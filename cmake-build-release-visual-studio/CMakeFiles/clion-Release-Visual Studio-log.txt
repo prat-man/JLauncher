@@ -12,6 +12,6 @@
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Found wxWidgets: C:/Users/prata/Files/wxWidgets-3.2.5/lib/vc_x64_lib/wxmsw32u_core.lib;C:/Users/prata/Files/wxWidgets-3.2.5/lib/vc_x64_lib/wxbase32u.lib;C:/Users/prata/Files/wxWidgets-3.2.5/lib/vc_x64_lib/wxpng.lib;C:/Users/prata/Files/wxWidgets-3.2.5/lib/vc_x64_lib/wxtiff.lib;C:/Users/prata/Files/wxWidgets-3.2.5/lib/vc_x64_lib/wxjpeg.lib;C:/Users/prata/Files/wxWidgets-3.2.5/lib/vc_x64_lib/wxzlib.lib;C:/Users/prata/Files/wxWidgets-3.2.5/lib/vc_x64_lib/wxregexu.lib;C:/Users/prata/Files/wxWidgets-3.2.5/lib/vc_x64_lib/wxexpat.lib;winmm;comctl32;uuid;oleacc;uxtheme;rpcrt4;shlwapi;version;wsock32 (found version "3.2.5") found components: core base png tiff jpeg zlib regex expat 
--- Configuring done (1.2s)
+-- Configuring done (1.4s)
 -- Generating done (0.0s)
 -- Build files have been written to: C:/Users/prata/Files/Git/JLauncher/cmake-build-release-visual-studio
